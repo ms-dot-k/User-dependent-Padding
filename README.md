@@ -87,7 +87,7 @@ Descriptions of training parameters are as follows:
 - `--checkpoint_udp`: the checkpoint of user dependent padding
 - `--subject`: speaker id to be used for testing
 - `--batch_size`: batch size
-- `--gpu`: gpu for using `--lr`: learning rate
+- `--gpu`: gpu for using
 - Refer to `test_udp.py` for the other testing parameters
 
 ## Citation
