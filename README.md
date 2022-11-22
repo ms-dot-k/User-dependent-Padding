@@ -36,7 +36,7 @@ Put the ckpt in './data/checkpoints/Base/'
 
 |       Architecture      |   Acc.   |
 |:-----------------------:|:--------:|
-|Resnet18 + MS-TCN   |   85.947   |
+|Resnet18 + MS-TCN   |   85.847   |
 
 or you can train your own baseline by using 'train.py'
 
