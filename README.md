@@ -27,7 +27,7 @@ The speaker annotations can be found in './data/LRW_ID_#.txt' or in this \[[repo
 The pre-processing will be done in the data loader.<br>
 The video is cropped with the bounding box \[x1:59, y1:95, x2:195, y2:231\].
 
-## Preparing Baseline Model
+### Preparing Baseline Model
 You can download the Pretrained Baseline model. <br>
 Put the ckpt in './data/checkpoints/Base/'
 
