@@ -129,13 +129,16 @@ def train_net(args):
     for k in range(args.layer_num):
         if args.location == 'front':
             udps[k].requires_grad = True
-            params = [{'params': udps[k], 'name': f'{k}'} for k in range(args.layer_num)]
         elif args.location == 'back':
             udps[16-k].requires_grad = True
-            params = [{'params': udps[16-k], 'name': f'{16-k}'} for k in range(args.layer_num)]
         else:
             assert 1 == 0, 'args.location should be one of [front, back]'
-
+            
+    if args.location == 'front':  
+        params = [{'params': udps[k], 'name': f'{k}'} for k in range(args.layer_num)]
+    elif args.location == 'back':
+        params = [{'params': udps[16-k], 'name': f'{16-k}'} for k in range(args.layer_num)]
+            
     f_optimizer = torch.optim.AdamW(params, lr=args.lr, weight_decay=args.weight_decay)
     f_scheduler = None
 
