@@ -7,8 +7,6 @@ This repository contains the PyTorch implementation of the following paper:
 
 <div align="center"><img width="75%" src="img/img.png?raw=true" /></div>
 
-The proposed User-dependent Padding can also be regarded as a form of Deep Visual Prompting in CNN at intermediate layers.
-
 ## Preparation
 
 ### Requirements
