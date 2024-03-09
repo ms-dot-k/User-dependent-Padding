@@ -32,7 +32,7 @@ You can download the Pretrained Baseline model. <br>
 Put the ckpt in './data/checkpoints/Base/'
 
 **Pretrained Baseline model**
-- https://kaistackr-my.sharepoint.com/:u:/g/personal/ms_k_kaist_ac_kr/EXmGftMr2S1Jsy7-Pk3PVeEBvDNF7vBxwZFrEyshLwOJ2w?e=J3UAo3
+- https://drive.google.com/file/d/1-3stMp4B_nTN2cmZW90z6o0cjTIv5Nsc/view?usp=sharing
 
 |       Architecture      |   Acc.   |
 |:-----------------------:|:--------:|
